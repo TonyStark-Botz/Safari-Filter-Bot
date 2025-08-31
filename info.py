@@ -58,7 +58,7 @@ AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002393733817'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002341735077'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://PikaFiles:Kanhaiya@cluster0.olrtq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "PikaBot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'PikaBot')
 
